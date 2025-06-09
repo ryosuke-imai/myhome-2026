@@ -1,4 +1,19 @@
-baseURL = "https://example.com"
+baseURL = "https://github.com/ryosuke-imai/"
 languageCode = "ja"
 title = "My Newsroom"
 theme = "newsroom"
+
+[[menu.main]]
+  name = "ホーム"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "ブログ"
+  url = "/posts/"
+  weight = 2
+
+[params]
+  author = "Ryosuke Imai"
+  description = "技術ブログ"
+  showTags = true
